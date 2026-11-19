@@ -1,0 +1,24 @@
+[component]
+name = "sigmaos-snapshot-manager"
+version = "0.1.0"
+description = "BTRFS snapshot lifecycle management with Command, Factory, Singleton patterns"
+inspiration = "SigmaOS"
+
+[contract]
+provides = ["snapshot-management", "pre-update-snapshots", "snapshot-cleanup"]
+depends_on = ["btrfs-progs"]
+
+[maturity]
+level = "planning"
+stability = "experimental"
+testing = "pending"
+
+[license]
+name = "MIT"
+spdx = "MIT"
+
+[authors]
+primary = "SigmaOS Team"
+
+[repository]
+url = "https://github.com/AaryanSinghChauhan09/SigmaOS-snapshot-manager"
